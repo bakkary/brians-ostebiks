@@ -1,0 +1,53 @@
+[
+    {
+        "sku": "243234a",
+        "navn": "feta",
+        "beskrivelse": [
+            "lorem ipsum",
+            "dolor sit amet"
+        ],
+        "land": "græsk",
+        "pris": 34.95,
+        "vægt": 250,
+        "billeder": [
+            "feta01.jpg",
+            "feta04.jpg",
+            "feta03.jpg",
+            "feta02.jpg"
+        ]
+    },
+    {
+        "sku": "222456a",
+        "navn": "brie",
+        "beskrivelse": [
+            "lorem ipsum",
+            "dolor sit amet"
+        ],
+        "land": "dansk",
+        "pris": 33.50,
+        "vægt": 250,
+        "billeder": [
+            "brie01.jpg",
+            "brie02.jpg",
+            "brie03.jpg",
+            "brie04.jpg"
+        ]
+    },
+    {
+        "sku": "ab23ef7",
+        "navn": "Gouda",
+        "beskrivelse": [
+            "lorem ipsum",
+            "dolor sit amet"
+        ],
+        "land": "Holland",
+        "pris": 33.42,
+        "vægt": 250,
+        "billeder": [
+            "gouda01.jpg",
+            "gouda02.jpg",
+            "gouda03.jpg",
+            "gouda04.jpg"
+        ]
+    }
+]

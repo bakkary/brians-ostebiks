@@ -1,0 +1,19 @@
+
+nav{
+    background-color: #000;
+}
+
+a{
+    color: #FFF;
+}
+
+.nav__space{
+    margin-right: 400px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
