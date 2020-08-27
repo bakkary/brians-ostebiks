@@ -8,6 +8,8 @@ const babel = require("gulp-babel");
 const imagemin = require("gulp-imagemin");
 
 
+
+
 function html(done) {
     gulp.src("./src/html/templates/*.ejs*")
         .pipe(ejs())
@@ -34,6 +36,16 @@ function scss(done) {
     done();
 }
 
+
+function manifest(done) {
+    gulp.src('./manifest.webmanifest')
+        .pipe(gulp.dest('./dist/'))
+        .pipe(connect.reload());
+    done();
+}
+function watchManifest(done) {
+    gulp.watch('./manifest.webmanifest', { ignoreInitial: false }, manifest);
+}
 
 
 function js(done) {
@@ -88,5 +100,6 @@ gulp.task("build", function (done) {
     javascript(done);
     json(done);
     images(done);
+    manifest(done);
     done();
 })

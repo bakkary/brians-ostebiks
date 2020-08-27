@@ -1,0 +1,21 @@
+{
+    "name": "ostebiks",
+    "short_name": "ostebiks",
+    "start_url": "index.html",
+    "background_color": "#f23a33",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/images/marioios.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/mario.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "theme_color": "#f23a33",
+    "orientation": "portrait"
+}
